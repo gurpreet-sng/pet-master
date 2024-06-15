@@ -444,12 +444,23 @@ img.sec-logo-img {
 .sectrakpaddbgg{
   padding-bottom: 120px;
 }
-
+.nav.nav-tabs{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.nav-tabs .nav-link {
+  background-color: #ffbaa0;
+  border-radius: 0px;
+  margin: 0px 10px;
+  color: #fff;
+}
 .secdaybgg{
   border: 2px solid #000;
   padding: 44px 44px 35px 44px;
   text-align: center;
-  height: 600px;
+  height: 930px;
 }
 
 .secdaybgg h2{
@@ -479,7 +490,7 @@ img.sec-logo-img {
   color: #4eae4a;
 }
 .dayprice h4{
-  font-size: 48px;
+  font-size: 25px;
   color: #000;
   font-family: 'Pacifico';
   display: flex;
