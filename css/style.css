@@ -446,9 +446,10 @@ img.sec-logo-img {
 }
 .nav.nav-tabs{
   display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  border: 0px;
 }
 .nav-tabs .nav-link.active {
   background-color: #ffbaa0;
@@ -460,6 +461,12 @@ img.sec-logo-img {
   border-radius: 0px;
   margin: 0px 10px;
   color: #000000;
+  border: 1px solid #dddddd;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .secdaybgg{
   border: 2px solid #000;
